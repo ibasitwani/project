@@ -1,0 +1,44 @@
+.Box{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+input{
+    height: 60px;
+    width: 300px;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 1px gray solid;
+}
+button{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.form{
+    display: flex;
+}
+.books{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 300px;
+}
+p{
+    padding: 0;
+}
+.book{
+
+}
+.notInStock{
+    background-color:red;
+}
+.inStock{
+    background-color: green;
+}
