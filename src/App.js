@@ -79,7 +79,9 @@ const App = () => {
   <div>
   
     <div className="Box" >
+      <div className="welcome">
     <h1>Welcome to Libgen</h1>
+    </div>
       <form className="form" onSubmit={searchBooks}>
         <input
           type="text"
