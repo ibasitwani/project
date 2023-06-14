@@ -76,8 +76,10 @@ const App = () => {
   return (
     <>
     
+  <div>
   
     <div className="Box" >
+    <h1>Welcome to Libgen</h1>
       <form className="form" onSubmit={searchBooks}>
         <input
           type="text"
@@ -104,6 +106,7 @@ const App = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
     </>
   );
