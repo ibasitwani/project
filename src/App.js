@@ -80,7 +80,7 @@ const App = () => {
   
     <div className="Box" >
       <div className="welcome">
-    <h1>Welcome to NITSRI Library</h1>
+    <h1>Welcome to NITSRI LIBRARY</h1>
     </div>
       <form className="form" onSubmit={searchBooks}>
         <input
