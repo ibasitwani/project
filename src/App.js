@@ -80,7 +80,7 @@ const App = () => {
   
     <div className="Box" >
       <div className="welcome">
-    <h1>Welcome to NITSRI LIBRARY</h1>
+    <h1>WELCOME TO NITSRI LIBRARY</h1>
     </div>
       <form className="form" onSubmit={searchBooks}>
         <input
@@ -94,17 +94,22 @@ const App = () => {
 <h1>Books</h1>
       <div className="books">
         {books.map((book) => (
-          <div key={book.id} style={{ marginBottom: "20px" }}>
-            <div className="book">
-              <p>Book Name: {book.book}</p> <br />
-              <p>Author Name:  {book.author} </p><br />
+          <div className="book" key={book.id} >
+          
+          <div>
+          <strong>Book: </strong>{" "} {book.book}
+            </div>
+            <div>
+          <strong>Author: </strong>{" "} {book.author}
+            </div>
+             
             
               <div>
-              <strong>Stock:</strong>{" "}
+             <strong>Stock: </strong>
               {book.stock === 0 ?<span className="notInStock">Not In Stock</span> :<span className="inStock">{book.stock}</span>}
               </div>
               
-            </div>
+        
           </div>
         ))}
       </div>
